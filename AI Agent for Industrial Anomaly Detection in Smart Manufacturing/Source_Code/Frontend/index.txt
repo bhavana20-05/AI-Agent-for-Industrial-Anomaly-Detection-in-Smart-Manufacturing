@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Carpet Defect Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="badge">⚡ Powered by AI</div>
+
+    <h1>AI Carpet Defect Detection</h1>
+    <p class="subtitle">
+      Advanced machine learning technology to instantly detect and classify
+      carpet defects with industry-leading accuracy
+    </p>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="card">
+        <div class="icon">🔍</div>
+        <h3>Instant Analysis</h3>
+        <p>Get results in seconds with optimized ML pipeline</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛡️</div>
+        <h3>High Accuracy</h3>
+        <p>99%+ detection accuracy trained on thousands of samples</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">📈</div>
+        <h3>Quality Control</h3>
+        <p>Automated defect classification for QA processes</p>
+      </div>
+    </div>
+
+    <!-- Upload + Result -->
+    <div class="main-section">
+
+      <div class="upload-box" id="uploadBox">
+        <div class="upload-icon">⬆️</div>
+        <h3>Upload Carpet Images</h3>
+        <p>Drag & drop or click to upload images</p>
+        <input type="file" id="fileInput" multiple hidden>
+        <button onclick="document.getElementById('fileInput').click()">
+          Select Files
+        </button>
+      </div>
+
+      <div class="result-box" id="resultBox">
+        <div class="upload-icon">📷</div>
+        <h3>No Analysis Yet</h3>
+        <p>Upload images to start detection</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
